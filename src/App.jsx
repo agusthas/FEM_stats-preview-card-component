@@ -1,5 +1,14 @@
+import React from 'react';
+import './App.css';
+import Card from './components/Card/Card';
+import Container from './container/Container';
+
 const App = () => {
-  return <div className="App"></div>;
+  return (
+    <Container>
+      <Card />
+    </Container>
+  );
 };
 
 export default App;

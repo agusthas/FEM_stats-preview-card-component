@@ -1,0 +1,80 @@
+.card {
+  --clr-heading: hsl(0, 0%, 100%);
+  --clr-paragraph: hsla(0, 0%, 100%, 0.75);
+  --clr-stat-heading: hsla(0, 0%, 100%, 0.6);
+  --clr-card-background: hsl(244, 38%, 16%);
+  --clr-accent: hsl(277, 64%, 61%);
+  --ff-lexend: 'Lexend Deca', sans-serif;
+  --ff-inter: 'Inter', sans-serif;
+  --bd-radius: 10px;
+  --fs-default: 0.9375rem; /* 15px */
+
+  background-color: var(--clr-card-background);
+  margin: 5.5rem 1.5rem;
+  border-radius: var(--bd-radius);
+  font-family: var(--ff-inter);
+  max-width: 400px;
+}
+
+.card__image {
+  width: 100%;
+  height: 240px;
+  background-image: linear-gradient(
+      rgba(82, 0, 132, 50%),
+      rgba(82, 0, 132, 50%)
+    ),
+    url('../../assets/images/image-header-mobile.jpg');
+  background-size: cover;
+  background-position: center center;
+  border-radius: var(--bd-radius) var(--bd-radius) 0 0;
+}
+
+.card__body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  color: var(--clr-heading);
+}
+
+.strong {
+  color: var(--clr-accent);
+}
+
+.card__description {
+  font-weight: 400;
+  font-size: var(--fs-default);
+  line-height: 1.5;
+  margin-top: 1rem;
+  color: var(--clr-paragraph);
+}
+
+.card__lists {
+  list-style: none;
+  margin-top: 2.625rem; /* 42px */
+}
+
+.card__lists .card__list:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.card__list .list__number {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--clr-heading);
+}
+
+.card__list .list__text {
+  font-size: 0.8125rem; /* 13px */
+  font-family: var(--ff-lexend);
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--clr-stat-heading);
+  margin-top: 0.75rem; /* 12px */
+}
