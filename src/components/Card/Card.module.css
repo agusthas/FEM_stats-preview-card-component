@@ -19,10 +19,7 @@
 .card__image {
   width: 100%;
   height: 240px;
-  background-image: linear-gradient(
-      rgba(82, 0, 132, 50%),
-      rgba(82, 0, 132, 50%)
-    ),
+  background: linear-gradient(rgba(82, 0, 132, 0.5), rgba(82, 0, 132, 0.5)),
     url('../../assets/images/image-header-mobile.jpg');
   background-size: cover;
   background-position: center center;
@@ -88,10 +85,7 @@
   }
 
   .card__image {
-    background-image: linear-gradient(
-        rgba(82, 0, 132, 50%),
-        rgba(82, 0, 132, 50%)
-      ),
+    background: linear-gradient(rgba(82, 0, 132, 0.5), rgba(82, 0, 133, 0.5)),
       url('../../assets/images/image-header-desktop.jpg');
     height: 446px;
     order: 1;
