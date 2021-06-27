@@ -3,5 +3,5 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 export default defineConfig({
   plugins: [reactRefresh()],
-  base: '/stats-preview-card-component/',
+  base: '/FEM_stats-preview-card-component/',
 });

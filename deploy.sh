@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 
-git push -f git@github.com:agusthas/stats-preview-card-component.git master:gh-pages
+git push -f git@github.com:agusthas/FEM_stats-preview-card-component.git master:gh-pages
 
 
 cd -
