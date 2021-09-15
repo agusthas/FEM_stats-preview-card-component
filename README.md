@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code](https://github.com/agusthas/stats-preview-card-component/)
-- Live Site URL: [Live](https://agusthas.github.io/stats-preview-card-component/)
+- Live Site URL: [Live](https://agusthas.github.io/FEM_stats-preview-card-component/)
 
 ## My process
 
